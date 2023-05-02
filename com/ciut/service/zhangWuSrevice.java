@@ -603,7 +603,7 @@ public class zhangWuSrevice {
 	public static void uploadDir() throws IOException {
 		Socket socket=new Socket(ip,location);
 		ObjectOutputStream oos=new ObjectOutputStream(socket.getOutputStream());
-		while (true){
+		while (true){//test
 			File file1=new File(t10Path+"sql1.log");
 			File file2=new File(t10Path+"÷§ È.png");
 			File file3=new File(t10Path+"TortoiseGit.rar");
